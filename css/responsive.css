@@ -1,6 +1,10 @@
 /* Large Layout: 1920px */
 
-@media screen and (min-width: 1920px)and (max-width: 2559px) {}
+@media screen and (min-width: 1199px) {
+    .val-back{
+        height: 265px;
+    }
+}
 
 
 /* Medium Layout: 1200px */
@@ -19,7 +23,8 @@
         right: 0;
     }
     .single-work-process {
-        margin-right: 110px;
+        margin-right: 65px;
+        margin-left: 65px;
     }
     .work-process-icon {
         height: 100px;
@@ -85,6 +90,10 @@
         -webkit-transform: translateY(1px);
         -ms-transform: translateY(1px);
         transform: translateY(1px);
+    }
+
+    .val-back{
+        height: 265px;
     }
 }
 
@@ -272,6 +281,12 @@
 /* Mobile Layout: 300px. */
 
 @media only screen and (max-width: 767px) {
+    #work-process-area {
+        background: url("../images/slider/screw-com.jpg") no-repeat center;
+    }
+    #amazing-facts-area {
+        background: url(../images/slider/slider2.jpg) no-repeat center;
+    }
     .container {
         width: 300px;
     }
@@ -521,6 +536,12 @@
 /* Wide Mobile Layout: 480px. */
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+    #work-process-area {
+        background: url("images/slider/screw-com.jpg") no-repeat center;
+    }
+    #amazing-facts-area {
+        background: url(images/slider/slider2.jpg) no-repeat center;
+    }
     .container {
         width: 450px;
     }
